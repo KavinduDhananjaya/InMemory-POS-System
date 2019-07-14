@@ -1,0 +1,22 @@
+.navbar-nav li{
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+#div1 label{
+    width: 140px;
+    font-family: Monaco;
+}
+
+input{
+    width: 300px;
+}
+
+
+#btn1{
+    margin-left: 20px;
+}
+
+#md2{
+    padding-left: 90px;
+}
