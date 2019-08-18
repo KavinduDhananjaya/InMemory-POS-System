@@ -28,7 +28,41 @@ function addRawDataOrder() {
     cell5.innerHTML=qty;
     cell6.innerHTML=total;
 
-
-
-
 }
+
+// function item(code, name, price, qty) {
+//     this.code=code;
+//     this.name=name;
+//     this.qty=qty;
+//     this.price=price;
+// }
+
+//
+// var items=[
+//     new item("I001","Lux",45.00,50),
+//     new item("I002","Anchor",350,100),
+//     new item("I003","Sunlight",55.00,50),
+//     new item("I004","Lux",55.00,100),
+//     new item("I004","Lux",55.00,100)
+// ];
+//
+//
+// $(document).ready(function () {
+//     for (var i = 0; i < items.length; i++) {
+//         $("#itemCode").append("<option>" + items[i].code + "</option>");
+//     }
+//
+//
+//     $("#item").change(function () {
+//         var x = $(this).val();
+//         for (var i = 0; i < items.length; i++) {
+//             if (items[i].code == x) {
+//                 $('#txtItemname').val(items[i].name);
+//                 $('#txtItmeCode').val(items[i].code);
+//                 $('#txtPrice').val(items[i].price);
+//                 $('#txtQuantity').val(items[i].qty);
+//
+//             }
+//         }
+//     });
+// }
